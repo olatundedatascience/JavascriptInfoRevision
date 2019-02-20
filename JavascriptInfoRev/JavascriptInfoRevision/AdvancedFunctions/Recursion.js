@@ -13,4 +13,10 @@ function CountToZero(n) {
     }
 }
 
-CountToZero(12)
+function iCountToZero(n){
+    for(var i=0;i<=n;i++) {
+        console.log(n-i)
+    }
+}
+
+iCountToZero(12)
